@@ -1,0 +1,8 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2026-11-11-20-35-58-189189-ubuntu-host-10925
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [perception_node-1]: process started with pid [10930]
+[perception_node-1] [INFO] [1794400559.302298357] [surgical_perception]: 已加载 YOLO26l-seg，设备 cuda:0
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [perception_node-1]: sending signal 'SIGINT' to process[perception_node-1]
+[INFO] [perception_node-1]: process has finished cleanly [pid 10930]
+[INFO] [launch]: process[perception_node-1] was required: shutting down launched system

@@ -1,0 +1,43 @@
+{
+  "python": "3.10.20",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "versions": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "ultralytics": "8.4.190",
+    "numpy": "1.26.4",
+    "opencv-python": "4.11.0.86"
+  },
+  "image": "../datasets/cholecinstanceseg/prepared/images/val/VID54_t80_sparse/t80_VID54_002160.png",
+  "shape": [
+    480,
+    854,
+    3
+  ],
+  "models": {
+    "s": {
+      "instances": 1,
+      "classes": [
+        "grasper"
+      ],
+      "weights_bytes": 23334557,
+      "checks": "类别、检测框、原图掩膜、叠加图、空检测输出通过"
+    },
+    "m": {
+      "instances": 1,
+      "classes": [
+        "grasper"
+      ],
+      "weights_bytes": 54479089,
+      "checks": "类别、检测框、原图掩膜、叠加图、空检测输出通过"
+    },
+    "l": {
+      "instances": 1,
+      "classes": [
+        "grasper"
+      ],
+      "weights_bytes": 63431301,
+      "checks": "类别、检测框、原图掩膜、叠加图、空检测输出通过"
+    }
+  }
+}

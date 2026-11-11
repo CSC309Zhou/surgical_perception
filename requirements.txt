@@ -1,0 +1,9 @@
+ultralytics==8.4.190
+torch==2.14.1
+torchvision==0.29.1
+# Humble 的系统 cv_bridge 使用 NumPy 1.x ABI。
+numpy==1.26.4
+opencv-python==4.11.0.86
+# 固定 Humble 消息生成使用的 Python 构建工具。
+setuptools==79.0.1
+packaging==24.2

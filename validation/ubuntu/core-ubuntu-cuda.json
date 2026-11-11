@@ -1,0 +1,51 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "device": "cuda:0",
+  "versions": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "ultralytics": "8.4.190",
+    "numpy": "1.26.4",
+    "opencv-python": "4.11.0.86"
+  },
+  "image": "/home/user/yolofinetune/surgical_perception_ws/test_data/t80_VID03_000270.png",
+  "resize": [
+    1920,
+    1080
+  ],
+  "shape": [
+    1080,
+    1920,
+    3
+  ],
+  "models": {
+    "s": {
+      "instances": 2,
+      "classes": [
+        "grasper",
+        "grasper"
+      ],
+      "weights_bytes": 23334557,
+      "checks": "类别、检测框、原图掩膜、叠加图、空检测输出通过"
+    },
+    "m": {
+      "instances": 2,
+      "classes": [
+        "grasper",
+        "grasper"
+      ],
+      "weights_bytes": 54479089,
+      "checks": "类别、检测框、原图掩膜、叠加图、空检测输出通过"
+    },
+    "l": {
+      "instances": 2,
+      "classes": [
+        "grasper",
+        "grasper"
+      ],
+      "weights_bytes": 63431301,
+      "checks": "类别、检测框、原图掩膜、叠加图、空检测输出通过"
+    }
+  }
+}

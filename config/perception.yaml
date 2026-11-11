@@ -1,0 +1,8 @@
+surgical_perception:
+  ros__parameters:
+    image_topic: /endoscope/image_raw
+    model_size: s
+    device: cpu
+    imgsz: 640
+    confidence: 0.25
+    publish_overlay: true

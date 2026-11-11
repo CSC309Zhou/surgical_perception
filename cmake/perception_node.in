@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "@Python3_EXECUTABLE@" -m surgical_perception_runtime.node "$@"

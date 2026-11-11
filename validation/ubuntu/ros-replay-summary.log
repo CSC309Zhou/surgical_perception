@@ -1,0 +1,14 @@
+真实图像 ROS 回放通过，收到 1 帧感知结果
+ROS 回放及正常退出通过：model=s device=cpu
+真实图像 ROS 回放通过，收到 1 帧感知结果
+ROS 回放及正常退出通过：model=m device=cpu
+真实图像 ROS 回放通过，收到 1 帧感知结果
+ROS 回放及正常退出通过：model=l device=cpu
+真实图像 ROS 回放通过，收到 1 帧感知结果
+ROS 回放及正常退出通过：model=s device=cuda:0
+真实图像 ROS 回放通过，收到 1 帧感知结果
+ROS 回放及正常退出通过：model=m device=cuda:0
+真实图像 ROS 回放通过，收到 1 帧感知结果
+ROS 回放及正常退出通过：model=l device=cuda:0
+真实图像 ROS 回放通过，收到 1 帧感知结果
+空实例消息与 SIGTERM 退出通过。

@@ -1,0 +1,77 @@
+Starting >>> surgical_perception
+Finished <<< surgical_perception [1.77s]
+
+Summary: 1 package finished [1.90s]
+Starting >>> surgical_perception
+UpdateCTestConfiguration  from :/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/CTestConfiguration.ini
+Parse Config file:/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/CTestConfiguration.ini
+   Site: ubuntu-host
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261111-1237 - Experimental
+UpdateCTestConfiguration  from :/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/CTestConfiguration.ini
+Parse Config file:/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/CTestConfiguration.ini
+Test project /home/user/yolofinetune/surgical_perception_ws/build/surgical_perception
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: runtime
+
+1: Test command: /home/user/yolofinetune/surgical_perception_ws/.venv/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/runtime.xunit.xml" "--package-name" "surgical_perception" "--output-file" "/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/ament_cmake_pytest/runtime.txt" "--append-env" "PYTHONPATH=/home/user/yolofinetune/surgical_perception_ws/src/surgical_perception" "--command" "/home/user/yolofinetune/surgical_perception_ws/.venv/bin/python3" "-u" "-m" "pytest" "/home/user/yolofinetune/surgical_perception_ws/src/surgical_perception/test/test_runtime.py" "-o" "cache_dir=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/ament_cmake_pytest/runtime/.cache" "--junit-xml=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/runtime.xunit.xml" "--junit-prefix=surgical_perception"
+1: Test timeout computed to be: 60
+1: -- run_test.py: extra environment variables to append:
+1:  - PYTHONPATH+=/home/user/yolofinetune/surgical_perception_ws/src/surgical_perception
+1: -- run_test.py: invoking following command in '/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception':
+1:  - /home/user/yolofinetune/surgical_perception_ws/.venv/bin/python3 -u -m pytest /home/user/yolofinetune/surgical_perception_ws/src/surgical_perception/test/test_runtime.py -o cache_dir=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/ament_cmake_pytest/runtime/.cache --junit-xml=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/runtime.xunit.xml --junit-prefix=surgical_perception
+1: ============================= test session starts ==============================
+1: platform linux -- Python 3.10.12, pytest-8.3.5, pluggy-1.7.0
+1: cachedir: build/surgical_perception/ament_cmake_pytest/runtime/.cache
+1: rootdir: /home/user/yolofinetune/surgical_perception_ws
+1: plugins: launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, ament-copyright-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-ros-0.19.14, anyio-4.15.1, colcon-core-0.21.3, cov-3.0.0
+1: collected 3 items
+1:
+1: ../../src/surgical_perception/test/test_runtime.py ...                   [100%]
+1:
+1: - generated xml file: /home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/runtime.xunit.xml -
+1: ============================== 3 passed in 0.72s ===============================
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/runtime.xunit.xml'
+1/2 Test #1: runtime ..........................   Passed    1.11 sec
+test 2
+    Start 2: messages
+
+2: Test command: /home/user/yolofinetune/surgical_perception_ws/.venv/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/messages.xunit.xml" "--package-name" "surgical_perception" "--output-file" "/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/ament_cmake_pytest/messages.txt" "--append-env" "PYTHONPATH=/home/user/yolofinetune/surgical_perception_ws/src/surgical_perception" "--command" "/home/user/yolofinetune/surgical_perception_ws/.venv/bin/python3" "-u" "-m" "pytest" "/home/user/yolofinetune/surgical_perception_ws/src/surgical_perception/test/test_messages.py" "-o" "cache_dir=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/ament_cmake_pytest/messages/.cache" "--junit-xml=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/messages.xunit.xml" "--junit-prefix=surgical_perception"
+2: Test timeout computed to be: 300
+2: -- run_test.py: extra environment variables to append:
+2:  - PYTHONPATH+=/home/user/yolofinetune/surgical_perception_ws/src/surgical_perception
+2: -- run_test.py: invoking following command in '/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception':
+2:  - /home/user/yolofinetune/surgical_perception_ws/.venv/bin/python3 -u -m pytest /home/user/yolofinetune/surgical_perception_ws/src/surgical_perception/test/test_messages.py -o cache_dir=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/ament_cmake_pytest/messages/.cache --junit-xml=/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/messages.xunit.xml --junit-prefix=surgical_perception
+2: ============================= test session starts ==============================
+2: platform linux -- Python 3.10.12, pytest-8.3.5, pluggy-1.7.0
+2: cachedir: build/surgical_perception/ament_cmake_pytest/messages/.cache
+2: rootdir: /home/user/yolofinetune/surgical_perception_ws
+2: plugins: launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, ament-copyright-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-ros-0.19.14, anyio-4.15.1, colcon-core-0.21.3, cov-3.0.0
+2: collected 3 items
+2:
+2: ../../src/surgical_perception/test/test_messages.py ...                  [100%]
+2:
+2: - generated xml file: /home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/messages.xunit.xml -
+2: ============================== 3 passed in 2.25s ===============================
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/user/yolofinetune/surgical_perception_ws/build/surgical_perception/test_results/surgical_perception/messages.xunit.xml'
+2/2 Test #2: messages .........................   Passed    2.80 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Label Time Summary:
+pytest    =   3.91 sec*proc (2 tests)
+
+Total Test time (real) =   3.91 sec
+Finished <<< surgical_perception [3.94s]
+
+Summary: 1 package finished [4.13s]
+Summary: 8 tests, 0 errors, 0 failures, 0 skipped

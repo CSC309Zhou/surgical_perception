@@ -1,0 +1,6 @@
+Starting >>> endoscope_device
+Starting >>> surgical_perception
+Finished <<< surgical_perception [0.23s]
+Finished <<< endoscope_device [4.35s]
+
+Summary: 2 packages finished [4.46s]
